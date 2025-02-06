@@ -1,0 +1,12 @@
+<idea-plugin>
+    <id>com.example.filecreatorplugin</id>
+    <name>FileCreatorPlugin</name>
+    <version>1.0</version>
+    <vendor>YourName</vendor>
+
+    <actions>
+        <action id="CreateFilesAction" class="com.example.CreateFilesAction" text="Create Files" description="Create JS and TXT files">
+            <add-to-group group-id="ToolsMenu" anchor="first"/>
+        </action>
+    </actions>
+</idea-plugin>
