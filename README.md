@@ -1,6 +1,6 @@
 ![WebStorm-02072025_022203](https://github.com/user-attachments/assets/47beecb9-886c-464b-b9f0-ba01881fb246)
 ![WebStorm-02072025_015914](https://github.com/user-attachments/assets/4129caba-a4c7-4dbc-a8c2-b1d31eb514b3)
-![WebStorm-02072025_015914](https://github.com/user-attachments/assets/98496f22-64c1-46f2-9ddb-978f78afba41)
+![WebStorm-02072025_015914](https://github.com/user-attachments/assets/7f1fc6c3-8e9e-4867-a828-0b3ea20ca0f5)
 ![WebStorm-02072025_012445](https://github.com/user-attachments/assets/586df212-f045-4789-948c-7410427146d7)
 ![WebStorm-02072025_012417](https://github.com/user-attachments/assets/0234fc92-0e74-4aee-8792-b8f4bc234097)
 ![WebStorm-02072025_005451](https://github.com/user-attachments/assets/ca15cc0c-3912-4864-a137-f7447d132371)
