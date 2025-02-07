@@ -1,0 +1,37 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="demo:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/demo_jar</output-path>
+    <root id="archive" name="demo.jar">
+      <element id="module-output" name="demo.main" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/app.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/app-client.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/bouncy-castle.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/external-system-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/externalProcess-rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/forms_rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/groovy.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/grpc.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/idea_rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/intellij-coverage-agent-1.0.744.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/intellij-test-discovery.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/jps-model.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/jsch-agent.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/junit4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/lib.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/lib-client.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/modules.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/opentelemetry.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/platform-loader.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/product.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/protobuf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/rd.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/stats.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/testFramework.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/trove.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/util.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/util-8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.jetbrains.intellij.idea/ideaIC/2024.1.7/f31c106937e44233f20ad78c2acd32b735267f6c/ideaIC-2024.1.7/lib/util_rt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/24.0.1/13c5c75c4206580aa4d683bffee658caae6c9f43/annotations-24.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
