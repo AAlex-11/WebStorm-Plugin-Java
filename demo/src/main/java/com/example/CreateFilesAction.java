@@ -2,9 +2,10 @@ package com.example;
 
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
+import com.intellij.openapi.actionSystem.CommonDataKeys;
+import com.intellij.openapi.command.WriteCommandAction;
 import com.intellij.openapi.ui.Messages;
 import com.intellij.openapi.vfs.VirtualFile;
-import com.intellij.openapi.vfs.VfsUtil;
 import org.jetbrains.annotations.NotNull;
 
 import java.io.IOException;
@@ -12,27 +13,33 @@ import java.io.IOException;
 public class CreateFilesAction extends AnAction {
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
-        // Prompt the user for input
+        // Get the selected directory from the project structure
+        VirtualFile selectedDir = e.getData(CommonDataKeys.VIRTUAL_FILE);
+
+        if (selectedDir == null || !selectedDir.isDirectory()) {
+            Messages.showErrorDialog("Please select a valid directory in the project structure.", "Error");
+            return;
+        }
+
+        // Prompt user for input
         String input = Messages.showInputDialog("Enter a string (e.g., AA01):", "File Creator Plugin", Messages.getQuestionIcon());
 
         if (input != null && !input.isEmpty()) {
-            // Get the current directory
-            VirtualFile baseDir = e.getProject().getBaseDir();
+            WriteCommandAction.runWriteCommandAction(e.getProject(), () -> {
+                try {
+                    // Create .js file in the selected directory
+                    VirtualFile jsFile = selectedDir.createChildData(this, input + ".js");
+                    jsFile.setBinaryContent(("// " + input + ".js\n").getBytes());
 
-            try {
-                // Create the .js file
-                VirtualFile jsFile = baseDir.createChildData(this, input + ".js");
-                VfsUtil.saveText(jsFile, "// " + input + ".js\n");
+                    // Create .txt file in the selected directory
+                    VirtualFile txtFile = selectedDir.createChildData(this, input + ".txt");
+                    txtFile.setBinaryContent(("This is " + input + ".txt\n").getBytes());
 
-                // Create the .txt file
-                VirtualFile txtFile = baseDir.createChildData(this, input + ".txt");
-                VfsUtil.saveText(txtFile, "This is " + input + ".txt\n");
-
-                // Notify the user
-                Messages.showInfoMessage("Files created successfully: " + input + ".js and " + input + ".txt", "Success");
-            } catch (IOException ex) {
-                Messages.showErrorDialog("Failed to create files: " + ex.getMessage(), "Error");
-            }
+                    Messages.showInfoMessage("Files created in: " + selectedDir.getPath(), "Success");
+                } catch (IOException ex) {
+                    Messages.showErrorDialog("Failed to create files: " + ex.getMessage(), "Error");
+                }
+            });
         } else {
             Messages.showErrorDialog("Input cannot be empty.", "Error");
         }
